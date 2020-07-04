@@ -1,5 +1,5 @@
 // Cadeia de protótipos (prototype chain)
-Object.prototype.attr0 = '0' //Não fazer isso
+Object.prototype.attr0 = '0' //Não fazer isso, sobrescrita e extensão de objetos.
 
 const avo = { attr1: 'A'}
 const pai = {__proto__: avo, attr2: 'B', attr3: '3'}
