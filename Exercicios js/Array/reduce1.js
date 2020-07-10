@@ -6,7 +6,9 @@ const alunos = [
 ]
 
 console.log(alunos.map(a => a.nota))
+
 //reduce é uma função acumulativa, podendo modificar os valores do seu array ou agrega-los
+
 const resultado = alunos.map(a => a.nota).reduce(function(acumulador, atual){
     console.log(acumulador, atual)
     return acumulador + atual

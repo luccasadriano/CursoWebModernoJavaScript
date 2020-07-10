@@ -1,4 +1,4 @@
-const modeloB = require("../modeloB");
+const modeloB = require("../sistemaModelos/modeloB");
 
 console.log(module.exports)
 console.log(module.exports === this)
